@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI. — Цифровые люди</title>
+<meta name="description" content="Знакомьтесь: цифровые люди. Интерактивная витрина AI-творцов.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="header-inner">
+
+    <a class="logo" href="#" aria-label="AI Creators">
+      <svg
+        class="logo-mark"
+        viewBox="0 0 40 40"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
+      >
+        <circle
+          cx="20"
+          cy="20"
+          r="15"
+          stroke="currentColor"
+          stroke-width="1.5"
+          stroke-dasharray="3 4"
+        />
+
+        <path
+          d="M20 7.5
+            C26.9 7.5 32.5 13.1 32.5 20
+            C32.5 26.9 26.9 32.5 20 32.5
+            C13.1 32.5 7.5 26.9 7.5 20
+            C7.5 13.1 13.1 7.5 20 7.5Z"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+
+        <path
+          d="M20 12
+            C23.9 12 27 15.1 27 19
+            C27 22.9 23.9 26 20 26
+            C16.1 26 13 22.9 13 19
+            C13 15.1 16.1 12 20 12Z"
+          stroke="currentColor"
+          stroke-width="2.2"
+        />
+
+        <circle
+          cx="20"
+          cy="19"
+          r="3.5"
+          fill="currentColor"
+        />
+
+        <circle cx="20" cy="2.8" r="1.8" fill="currentColor"/>
+        <circle cx="37.2" cy="20" r="1.8" fill="currentColor"/>
+        <circle cx="20" cy="37.2" r="1.8" fill="currentColor"/>
+        <circle cx="2.8" cy="20" r="1.8" fill="currentColor"/>
+      </svg>
+
+      <span>CREATORS</span>
+    </a>
+
+    <nav class="nav">
+      <a href="#creators">Блогеры</a>
+      <a href="#latest">Публикации</a>
+      <a href="#telegram">Telegram</a>
+    </nav>
+
+    <a class="tg-mini" href="#telegram">
+      <svg width="20" height="20" fill="none" viewBox="0 0 24 24">
+                                        <path d="m1.471 10.642 14.296-5.89c1.412-.613 6.197-2.577 6.197-2.577s2.21-.859 2.025 1.227c-.061.86-.552 3.866-1.043 7.118l-1.534 9.633s-.123 1.41-1.166 1.656-2.76-.859-3.067-1.104c-.246-.184-4.602-2.945-6.197-4.295-.43-.368-.92-1.105.06-1.964 2.21-2.024 4.848-4.54 6.443-6.135.737-.736 1.473-2.454-1.595-.368L7.24 13.772s-.982.613-2.823.06c-1.84-.551-3.988-1.288-3.988-1.288s-1.472-.92 1.043-1.902Z" fill="currentColor"></path>
+                                    </svg>
+      <span>Telegram</span>
+    </a>
+
+  </div>
+</header>
+
+
+<main>
+
+<section class="hero" id="creators">
+
+  <div class="hero-bg"></div>
+
+  <div class="hero-inner">
+
+    <div class="hero-copy">
+
+      <div class="kicker">
+        Цифровые люди / 2026
+      </div>
+
+      <h1>
+        ЗНАКОМЬТЕСЬ:<br>
+        <span>ЦИФРОВЫЕ</span><br>
+        ЛЮДИ.
+      </h1>
+
+      <p class="hero-sub">
+        Они не настоящие. Но их истории реальны.
+        Откройте новое поколение AI-творцов с собственными
+        личностями, эстетикой и мирами.
+      </p>
+
+      <div class="actions">
+
+        <button class="btn btn-main" id="explore">
+          <span>ПРОФИЛЬ</span> <span>↗</span>
+        </button>
+
+        <a class="btn btn-ghost" href="#latest">
+          <span>ПУБЛИКАЦИИ</span> <span>↓</span>
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="stage" id="stage">
+
+      <!-- <div class="orbit"></div> -->
+
+      <div class="person" id="person">
+
+        <img id="heroImage" alt="">
+
+        <div class="badge follow">
+          <strong id="heroFollowers">128K</strong>
+          подписчиков
+        </div>
+
+        <div class="person-label">
+
+          <small id="heroCategory">
+            БИЗНЕС / ТЕХ
+          </small>
+
+          <strong id="heroName">
+            Alex V.
+          </strong>
+
+        </div>
+
+      </div>
+
+
+      <div class="float-card">
+
+        <span>
+          ПОСЛЕДНИЕ ПУБЛИКАЦИИ
+        </span>
+
+        <strong id="floatTitle">
+          Строим будущее.
+        </strong>
+
+        <div class="float-post">
+          <i id="fp1"></i>
+          <i id="fp2"></i>
+          <i id="fp3"></i>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="switcher" id="switcher"></div>
+
+  </div>
+
+</section>
+
+
+<section class="discover" id="latest">
+
+  <div class="discover-head">
+
+    <div>
+
+      <div class="eyebrow">
+        / 02 — Последнее
+      </div>
+
+      <h2>
+        ЛЕНТА<br>
+        ЖИВЁТ.
+      </h2>
+
+    </div>
+
+    <div class="discover-context">
+
+      <div class="discover-context-label">
+        АКТИВНЫЙ БЛОГЕР
+      </div>
+
+      <div class="discover-context-main">
+        <span class="discover-dot"></span>
+
+        <strong id="feedCreatorName">
+          Alex V.
+        </strong>
+
+        <span id="feedCreatorHandle">
+          @alexvision
+        </span>
+      </div>
+
+    </div>
+
+    <p class="discover-copy">
+      У каждого блогера свой взгляд на мир.
+      Переключайте персонажей выше — и вместе
+      с ними меняется их цифровая реальность.
+    </p>
+
+  </div>
+
+  <div class="feed" id="feed"></div>
+
+</section>
+
+
+<section class="cta" id="telegram">
+
+  <div class="cta-box">
+
+    <div class="eyebrow" style="color:#080a07">
+      / 03 — Продолжение
+    </div>
+
+    <h2>
+      ИСТОРИЯ<br>
+      ПРОДОЛЖАЕТСЯ<br>
+      В TELEGRAM.
+    </h2>
+
+    <p>
+      Следите за любимым цифровым человеком
+      и получайте новые публикации, события
+      и разговоры прямо в Telegram.
+    </p>
+
+    <a class="btn" href="#">
+      <svg width="20" height="20" fill="none" viewBox="0 0 24 24">
+                                        <path d="m1.471 10.642 14.296-5.89c1.412-.613 6.197-2.577 6.197-2.577s2.21-.859 2.025 1.227c-.061.86-.552 3.866-1.043 7.118l-1.534 9.633s-.123 1.41-1.166 1.656-2.76-.859-3.067-1.104c-.246-.184-4.602-2.945-6.197-4.295-.43-.368-.92-1.105.06-1.964 2.21-2.024 4.848-4.54 6.443-6.135.737-.736 1.473-2.454-1.595-.368L7.24 13.772s-.982.613-2.823.06c-1.84-.551-3.988-1.288-3.988-1.288s-1.472-.92 1.043-1.902Z" fill="currentColor"></path>
+                                    </svg>
+      <span>ОТКРЫТЬ TELEGRAM</span>
+    </a>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+  <span>
+    © 2026 AI CREATORS. ЦИФРОВЫЕ ЛЮДИ.
+  </span>
+
+  <span>
+    ДИЗАЙН и РАЗРАБОТКА - <a style="color: #eee;" target="_blank" href="https://www.vladbaka.com/">VLAD BAKA</a>
+  </span>
+
+</footer>
+
+
+<!-- =========================
+     CREATOR MODAL
+     ========================= -->
+
+<div class="modal" id="modal">
+
+  <div class="sheet">
+
+    <button class="close" id="close">
+      ✕
+    </button>
+
+
+    <div class="sheet-desktop-content">
+
+      <div class="sheet-profile">
+
+        <div class="sheet-profile-image">
+          <img id="modalImage" alt="">
+        </div>
+
+
+        <div class="sheet-profile-info">
+
+          <div class="sheet-name" id="modalName"></div>
+
+          <div class="sheet-handle" id="modalHandle"></div>
+
+          <p class="sheet-desc" id="modalDesc"></p>
+
+
+          <div class="stats">
+
+            <div>
+              <strong id="mFollowers"></strong>
+              <span>ПОДПИСЧИКИ</span>
+            </div>
+
+            <div>
+              <strong id="mPosts"></strong>
+              <span>ПУБЛИКАЦИИ</span>
+            </div>
+
+            <div>
+              <strong>4.9</strong>
+              <span>РЕЙТИНГ</span>
+            </div>
+
+          </div>
+
+
+          <div class="sheet-story">
+
+            <div class="sheet-story-label">
+              ИСТОРИЯ
+            </div>
+
+            <p id="modalStory"></p>
+
+            <a class="btn btn-main" href="#">
+              ОТКРЫТЬ TELEGRAM ↗
+            </a>
+
+          </div>
+
+          <!-- Последние посты -->
+
+          <div class="sheet-gallery">
+
+            <div class="sheet-gallery-head">
+
+              <div class="sheet-gallery-title" id="modalGalleryTitle">
+                Последние посты от Alex V.
+              </div>
+
+              <div class="sheet-gallery-label">
+                03 ПУБЛИКАЦИИ
+              </div>
+
+            </div>
+
+            <div class="sheet-gallery-grid" id="modalPosts"></div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>    
+
+  </div>
+
+</div>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
